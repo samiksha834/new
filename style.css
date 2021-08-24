@@ -1,0 +1,27 @@
+body{
+  background-color: cadetblue;
+}
+.nav-wrapper{
+  background:black;
+  height: 40px;
+  line-height: normal;
+  vertical-align:middle
+}
+span a{
+  text-decoration: none;
+  color: white;
+  padding: 50px;
+  font-size: x-large;
+}
+.footer{
+  text-align: center;
+  background:black;
+  height: 40px;
+  color: white;
+  padding: 50px;
+  display: block;
+  font-size: x-large;
+}
+.footer i{
+  padding:0px 75px;
+}
