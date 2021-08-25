@@ -1,5 +1,9 @@
+*{
+  margin: 0.5em;
+}
 body{
   background-color: cadetblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .nav-wrapper{
   background:black;
@@ -25,3 +29,5 @@ span a{
 .footer i{
   padding:0px 75px;
 }
+
+
