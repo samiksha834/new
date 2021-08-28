@@ -1,0 +1,17 @@
+body{
+  margin: 0px;
+}
+div{
+  box-sizing: border-box;
+  width: 500px;
+  
+}
+.wrapper{
+  border: 1px solid red;
+  margin: 1em;
+}
+
+.content{
+  border: 1px solid blue;
+  padding: 1em;
+}

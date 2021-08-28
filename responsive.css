@@ -1,0 +1,26 @@
+.container{
+  /* width: 300px; */
+  width: 25%;
+  height: 300px;
+  border: 1px solid black;
+  float: left;
+}
+.content{
+  width: 100%;
+  /* width: 300px; */
+  height: 300px;
+  padding: 5px;
+  background-color: pink;
+  box-sizing: border-box;
+}
+@media screen and (max-width:768px) {
+  .container{
+    width: 100%;
+  }
+}
+@media screen and (min-width:769px) and (max-width:1200px) {
+  
+}
+@media screen and (min-width:1201px) {
+  
+}
