@@ -9,9 +9,17 @@ body{
   background:black;
   height: 40px;
   line-height: normal;
-  vertical-align:middle
+  vertical-align:middle;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  overflow: hidden;
+}
+.mm{
+  margin-top: 60px;
 }
 span a{
+  
   text-decoration: none;
   color: white;
   padding: 50px;
@@ -35,3 +43,7 @@ span a{
   height: 500px;
   object-fit: cover;
 } */
+figure{
+  object-fit: cover;
+  margin-top: 40px;
+}
