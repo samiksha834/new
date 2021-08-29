@@ -17,21 +17,6 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
-.scrolltop {
-  background: rgb(70, 112, 226);
-  padding: 1em;
-  margin: 1em;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  font-weight: 600;
-  color: white;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-}
-
 .main h1 {
   font-weight: 700;
   margin: 1em;
@@ -46,7 +31,7 @@ html {
   height: 600px;
   width: 80%;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+    box-sizing: border-box;
   background-color: orange;
   margin: 1em;
 }
@@ -70,13 +55,19 @@ html {
 }
 
 .main .box.b1 .inner.i1 {
-  top: 0;
+  top: 10px;
   left: 0;
+  width: 45%;
+}
+.main .box.b1 .inner.i2 {
+  top: 10px;
+  right: 0;
+  width: 45%;
 }
 
-.main .box.b1 .inner.i2 {
-  bottom: 0;
-  left: 0;
+.main .box.b1 .inner.i3 {
+  bottom: 8px;
+  left: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,22 +79,6 @@ html {
           align-items: center;
 }
 
-.main .box.b1 .inner.i2 form .form-group {
-  margin: 1em;
-}
-
-.main .box.b1 .inner.i2 form .form-group input {
-  width: 80%;
-}
-
-.main .box.b1 .inner.i2 form .form-group label {
-  margin-right: 1em;
-}
-
-.main .box.b1 .inner.i2 form .btn-primary {
-  float: left;
-  margin: 1em;
-}
 
 .main .box.b2 {
   display: -webkit-box;
@@ -136,7 +111,7 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  height: 50%;
+  height: 95%;
 }
 
 .main .box.b2 .wrap1 .inner {
@@ -152,6 +127,7 @@ html {
 
 .main .box.b2 .wrap1 .inner.i2 {
   margin-left: .5em;
+  
 }
 
 .main .box.b2 .i3 {
@@ -164,7 +140,7 @@ html {
 .main .box.b3 .inner {
   height: 47%;
   width: 45%;
-  background-color: cyan;
+  
   position: absolute;
 }
 
@@ -173,18 +149,28 @@ html {
   left: 1em;
   margin-right: 1em;
   margin-bottom: 1em;
+  background-color: cyan;
 }
-
 .main .box.b3 .inner.i2 {
-  top: 0;
-  right: 0;
+  top: 1em;
+  right: 1em;
   margin-left: 1em;
   margin-bottom: 1em;
 }
 
+.main .box.b3 .inner.i2 img{
+  left: 1em;
+  bottom: 1em;
+}
+
+.main .box.b3 .inner.i3 img{
+  right: 1em;
+  top: 1em;
+}
+
 .main .box.b3 .inner.i3 {
-  bottom: 0;
-  left: 0;
+  bottom: 1em;
+  left: 1em;
   margin-right: 1em;
   margin-top: 1em;
 }
@@ -194,6 +180,7 @@ html {
   right: 1em;
   margin-left: 1em;
   margin-top: 1em;
+  background-color: cyan;
 }
 
 @media screen and (max-width: 768px) {
@@ -211,4 +198,3 @@ html {
     height: calc(50% - (1em * 2));
   }
 }
-/*# sourceMappingURL=style.css.map */
